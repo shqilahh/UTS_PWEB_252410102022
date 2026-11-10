@@ -34,16 +34,6 @@ NOMNOM adalah website kumpulan resep praktis untuk mahasiswa dan anak kos. Setia
 - Profile: menampilkan avatar inisial dan nama pengguna dari username login
 - Tampilan responsif (desktop, tablet, HP)
 
-## Struktur Blade
-
-| Sintaks | Dipakai di |
-|---|---|
-| `@extends`, `@section`, `@yield` | Semua view memakai `layouts/app.blade.php` |
-| `@include` | `partials/recipe-tip.blade.php` di Dashboard |
-| `<x-navbar>`, `<x-footer>` | Layout utama |
-| `<x-recipe-card>` | Dashboard dan Detail |
-| `@foreach`, `@forelse` | Daftar resep, kategori, bahan, langkah, tips |
-
 ## Cara Menjalankan
 
 ```bash
